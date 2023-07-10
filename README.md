@@ -29,8 +29,5 @@ The code for tuning the model is in the 3. Model Tuning section of the notebook.
 ## Model Testing
 The code for testing the model is in the 4. Model Testing section of the notebook. The performance of the model is evaluated on the testing set using the root mean squared error (RMSE) metric. The model is also evaluated using cross-validation. Finally, the model is saved to a file using the pickle library.
 
-# Compare Models
-The RMSE and cross-validation scores of the Random Forest model and other regression models such as Decision Tree Regressor, K-Nearest Neighbors Regressor, Artificial Neural Networks (ANN), and Ensemble Methods such as AdaBoost, XGBoost, and LightGBM are compared in the 5. Compare Models section of the notebook. The Random Forest model outperforms the other models in terms of the RMSE and the cross-validation scores.
-
 # Next Steps
 Further exploration and improvement of the Random Forest model could include tuning additional hyperparameters, exploring feature importance, and investigating ensemble techniques such as stacking or blending to enhance the predictive performance.
